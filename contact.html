@@ -3,43 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Get in touch with Nimble Software Architectures Inc.">
-    <meta name="author" content="Nimble Software Architectures Inc.">
+    <meta name="description" content="Contact Nimble Software Architectures Inc.">
     <title>Contact Us - Nimble Software Architectures Inc.</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <h1>Contact Us</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="services.html">Services</a>
+        <div class="logo">
+            <img src="logo.png" alt="Nimble Software Architectures Inc. Logo">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section>
-        <h2>Get in Touch</h2>
+    <!-- Contact Section -->
+    <section class="contact">
+        <h1>Contact Us</h1>
         <p>
-            Have a question or want to learn more about our services? We'd love to hear from you!
+            Have questions or need assistance? Reach out to us, and we’ll get back to you as soon as possible.
         </p>
         <form action="#" method="post">
             <label for="name">Your Name:</label><br>
             <input type="text" id="name" name="name" required><br><br>
-            
+
             <label for="email">Your Email:</label><br>
             <input type="email" id="email" name="email" required><br><br>
-            
+
             <label for="message">Your Message:</label><br>
             <textarea id="message" name="message" rows="5" required></textarea><br><br>
-            
+
             <button type="submit">Send Message</button>
         </form>
     </section>
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Nimble Software Architectures Inc. All rights reserved.</p>
-        <p><a href="index.html">Back to Home</a></p>
     </footer>
 </body>
 </html>
